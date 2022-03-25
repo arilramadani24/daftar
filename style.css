@@ -1,0 +1,76 @@
+* {
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #00b0ff;
+}
+
+.container {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 410px;
+  font-size: 15px;
+  padding: 9px 15px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 6px #006c9e;
+}
+
+.container h2,
+h3 {
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 30px;
+}
+
+.daftar a {
+  text-decoration: none;
+  color: #0088c7;
+  font-weight: bold;
+}
+
+.daftar a:hover {
+  text-decoration: underline;
+}
+
+.daftar .tanya {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.daftar .link1 {
+  padding-bottom: 5px;
+}
+
+.daftar .button {
+  border: none;
+  background-color: #00b0ff;
+  color: white;
+  font-size: 15px;
+  padding: 10px 9px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.daftar .button:hover {
+  background-color: #006c9e;
+}
+
+.daftar hr {
+  margin-top: 15px;
+}
+
+.daftar input {
+  width: 90%;
+  transition: 0.5s;
+  padding-top: 5px;
+}
+
+.daftar input:focus {
+  border: 1px solid #00b0ff;
+}
